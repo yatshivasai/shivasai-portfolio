@@ -60,3 +60,12 @@ a:focus-visible,button:focus-visible{outline:3px solid #54e1dc;outline-offset:4p
 .cert-names-only .certificate-info{padding:0;align-self:center;}
 .cert-names-only .certificate-info h3{font-size:15px;line-height:1.5;margin:9px 0 0;color:var(--ink);}
 @media(max-width:680px){.cert-names-only .certificate-card{min-height:88px;padding:18px}.cert-names-only .certificate-info h3{font-size:14px}}
+
+
+/* CocoScanner project branding */
+.cocoscanner-art { position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; }
+.cocoscanner-logo-wrap { display: flex; align-items: center; justify-content: center; min-height: 145px; padding: 18px; }
+.cocoscanner-logo-wrap img { display: block; width: min(190px, 72%); height: 125px; object-fit: contain; border-radius: 12px; }
+.cocoscanner-art .art-data { padding: 0 22px 22px; display: flex; flex-direction: column; gap: 4px; }
+.cocoscanner-art .art-data span, .cocoscanner-art .art-data small { font-size: .68rem; letter-spacing: .12em; }
+.cocoscanner-art .art-data b { font-size: 1.15rem; letter-spacing: .06em; }
