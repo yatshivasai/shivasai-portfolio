@@ -54,3 +54,9 @@ nav{color:#aebbd0}nav>a:hover,nav>a.active{color:var(--cyan)}
 .social-links a:hover{background:#263d60;border-color:#6edce1}
 a:focus-visible,button:focus-visible{outline:3px solid #54e1dc;outline-offset:4px}
 @media(max-width:680px){nav{background:#101827;border-bottom-color:#293b55}nav>a{color:#dbe5f6}nav .nav-contact{color:#fff}.hero-socials{gap:7px}.hero-socials a{font-size:9px;padding:8px 9px}}
+
+/* Text-only certification cards: no certificate previews or download links */
+.cert-names-only .certificate-card{display:flex;min-height:112px;padding:24px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:12px;}
+.cert-names-only .certificate-info{padding:0;align-self:center;}
+.cert-names-only .certificate-info h3{font-size:15px;line-height:1.5;margin:9px 0 0;color:var(--ink);}
+@media(max-width:680px){.cert-names-only .certificate-card{min-height:88px;padding:18px}.cert-names-only .certificate-info h3{font-size:14px}}
